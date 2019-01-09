@@ -60,7 +60,9 @@ namespace MyFramework.Navigation
 
         buffer += !String.IsNullOrEmpty(classes) ? " class='" + classes + "'" : "";
         buffer += ">";
-        buffer += "<a href='" + page.Link + "'>" + page.Title + "</a>";
+        buffer += "<a href='" + page.Link + "'";
+        buffer += page.Target != null ? " target='" + page.Target + "'" : "";
+        buffer += ">" + page.Title + "</a>";
 
         if (page.ChildPages != null)
         {
