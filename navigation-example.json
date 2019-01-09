@@ -1,0 +1,39 @@
+﻿ [
+  {
+    "title": "About",
+    "link": "/about/",
+    "class": "some-class",
+    "childPages": [
+      {
+        "title": "About Sub 1",
+        "link": "/about/AboutSub1"
+      },
+      {
+        "title": "About Sub 2",
+        "link": "/about/AboutSub2",
+        "childPages": [
+          {
+            "title": "About Sub 2 Child",
+            "class": "some-other-class",
+            "target":  "_blank",
+            "link":  "/about/AboutSub2/AboutSub2Child"
+          }
+        ]
+      }
+    ]
+  },
+  {
+		"title": "Contact",
+		"link": "/contact/",
+		"childPages": [
+			{
+				"title": "Contact Sub 1",
+				"link": "/contact/ContactSub1"
+			},
+			{
+				"title": "Contact Sub 2",
+				"link": "/contact/ContactSub2"
+			}
+		]
+	}
+]
