@@ -5,7 +5,7 @@ using System.Web;
 using System.IO;
 using Newtonsoft.Json;
 
-namespace MyFramework.Navigation
+namespace EnviventDotNet.Navigation
 {
   /// <summary>
   /// A HTML navigation builder that uses JSON to create an unordered list of navigation links

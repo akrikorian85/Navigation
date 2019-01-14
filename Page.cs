@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace MyFramework.Navigation
+namespace EnviventDotNet.Navigation
 {
   /// <summary>
   /// Represents a navigation link for the Navigation object, eventually being outputted as HTML
